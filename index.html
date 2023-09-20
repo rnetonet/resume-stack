@@ -24,16 +24,7 @@
         <template x-for="work in resume.work">
           <article class="mb-6 last:mb-0">
             <header class="flex items-start gap-x-4">
-              <figure class="h-8 aspect-square">
-                <template x-if="work.logo">
-                  <img :src="work.logo" class="h-full w-full" />
-                </template>
-
-                <template x-if="!work.logo">
-                  <div></div>
-                </template>
-              </figure>
-
+              
               <div class="grow">
                 <p class="title">
                   <span x-text="work.position"></span> @
@@ -44,8 +35,6 @@
                     <span x-text="work.name"></span>
                   </template>
                 </p>
-
-                <p class="subtitle mb-2" x-text="work.summary"></p>
               </div>
 
               <div class="shrink-0 text-right subtitle">
@@ -53,12 +42,10 @@
                   <span x-text="work.startDate"></span> -
                   <span x-text="work.endDate"></span>
                 </div>
-
-                <div x-text="work.location"></div>
               </div>
             </header>
 
-            <ul class="ml-12">
+            <ul class="ml-1">
               <template x-for="line in work.highlights">
                 <li x-text="line"></li>
               </template>
@@ -73,15 +60,6 @@
         <template x-for="volunteer in resume.volunteer">
           <article class="mb-6 last:mb-0">
             <header class="flex items-start gap-x-4">
-              <figure class="h-8 aspect-square">
-                <template x-if="volunteer.logo">
-                  <img :src="volunteer.logo" class="h-full w-full" />
-                </template>
-
-                <template x-if="!volunteer.logo">
-                  <div></div>
-                </template>
-              </figure>
 
               <div class="grow">
                 <p class="title">
@@ -114,21 +92,12 @@
         </template>
 
         <template x-if="resume.projects && resume.projects.length">
-          <p class="subheader ml-12 text-base">Projects</p>
+          <p class="subheader text-base">Projetos</p>
         </template>
 
         <template x-for="project in resume.projects">
           <article class="mb-6 last:mb-0">
             <header class="flex items-start gap-x-4">
-              <figure class="h-8 aspect-square">
-                <template x-if="project.logo">
-                  <img :src="project.logo" class="h-full w-full" />
-                </template>
-
-                <template x-if="!project.logo">
-                  <div></div>
-                </template>
-              </figure>
 
               <div class="grow">
                 <p class="title">
@@ -151,7 +120,7 @@
               </div>
             </header>
 
-            <ul class="ml-12">
+            <ul class="ml-1">
               <template x-for="line in project.highlights">
                 <li x-text="line"></li>
               </template>
@@ -205,7 +174,7 @@
 
         <template x-if="resume.skills && resume.skills.length">
           <section>
-            <p class="subheader">Skills</p>
+            <p class="subheader">Habilidades</p>
 
             <template x-for="skill in resume.skills">
               <div>
@@ -226,7 +195,7 @@
 
         <template x-if="resume.languages && resume.languages.length">
           <section>
-            <p class="subheader">Languages</p>
+            <p class="subheader">Idiomas</p>
 
             <template x-for="language in resume.languages">
               <div class="flex justify-between gap-x-4">
@@ -239,7 +208,7 @@
 
         <template x-if="resume.certificates && resume.certificates.length">
           <section>
-            <p class="subheader">Certificates</p>
+            <p class="subheader">Certificados</p>
 
             <template x-for="cert in resume.certificates">
               <div>
@@ -281,7 +250,7 @@
 
         <template x-if="resume.education && resume.education.length">
           <section>
-            <p class="subheader">Education</p>
+            <p class="subheader">Formação</p>
 
             <template x-for="education in resume.education">
               <article>
@@ -330,7 +299,7 @@
         </template>
 
         <section class="mb-4 last:mb-0">
-          <p class="subheader">Contacts</p>
+          <p class="subheader">Contatos</p>
 
           <template x-if="resume.basics.email">
             <p class="flex mb-1">

@@ -1,175 +1,155 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/schema.json",
   "basics": {
-    "name": "John Doe",
-    "label": "Software Engineer",
-    "summary": "Highly motivated software engineer with experience in developing web applications and strong problem-solving skills. Passionate about writing clean and efficient code to create user-friendly experiences.",
-    "image": "https://i.pravatar.cc/150?u=myprofile",
-    "location": {
-      "address": "Grand Place 1",
-      "city": "Brussels",
-      "postalCode": "1000",
-      "region": "Brussels Capital Region",
-      "countryCode": "BE"
-    },
-    "url": "https://velvetlab.tech",
-    "phone": "+32 123 456789",
-    "email": "luca@velvetlab.tech"
+    "name": "Ruivaldo Neto",
+    "label": "Analista de Sistemas",
+    "url": "https://rneto.net",
+    "phone": "(71) 9 9270 4697",
+    "email": "rneto@rneto.net"
   },
   "education": [
     {
-      "institution": "University of ABC",
-      "studyType": "BSc",
-      "area": "Computer Science",
-      "startDate": "2015",
+      "institution": "UFBA",
+      "studyType": "Mestrado",
+      "area": "Ciência da Computação - IA",
+      "startDate": "2018",
       "endDate": "2019"
+    },
+    {
+      "institution": "IFBA",
+      "studyType": "Pós",
+      "area": "Sistemas Distribuídos e Computação Ubíqua",
+      "startDate": "2016",
+      "endDate": "2017"
+    },
+    {
+      "institution": "IFBA",
+      "studyType": "Graduação",
+      "area": "Análise e Desenvolvimento de Sistemas",
+      "startDate": "2010",
+      "endDate": "2013"
     }
   ],
   "languages": [
     {
-      "language": "Italian",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "French",
-      "fluency": "Working proficiency"
-    },
-    {
-      "language": "English",
-      "fluency": "Working proficiency"
-    },
-    {
-      "language": "Portuguese",
-      "fluency": "Basic"
+      "language": "Inglês",
+      "fluency": "Leitura e Escrita"
     }
   ],
   "work": [
     {
-      "name": "Resume Stack",
-      "logo": "/logo/company-3.svg",
-      "position": "Author",
-      "summary": "Created a resume template using HTML and CSS",
-      "startDate": "2023",
+      "name": "ENAP",
+      "position": "Coordenador de Sistemas Educacionais",
+      "startDate": "2021",
+      "endDate": "",
       "highlights": [
-        "Created a resume template using HTML and CSS",
-        "Published the template on GitHub",
-        "Wrote a tutorial on how to create a resume using the template"
-      ],
-      "location": "Remote",
-      "url": "https://github.com/lucafaggianelli/resume-stack"
-    },
+        "Coordenação da sustentação e desenvolvimento da www.escolavirtual.gov.br (EV.G)",
+        "Projeto e desenvolvimento das iniciativas de integração e compartilhamento de dados EnAPI e Integra (Python, FastAPI)"
+      ]
+    },        
     {
-      "name": "ABC Corporation",
-      "logo": "/logo/company-2.svg",
-      "position": "Software Engineer",
-      "summary": "Designed and developed scalable web applications",
-      "startDate": "2019",
+      "name": "IFBaiano",
+      "position": "Analista de Tecnologia da Informação",
+      "startDate": "2017",
       "endDate": "2021",
       "highlights": [
-        "Designed and developed scalable web applications",
-        "Implemented RESTful APIs for data retrieval and manipulation",
-        "Optimized database queries for improved performance"
-      ],
-      "location": "Brussels, Belgium"
+        "Implantação, customização (novos módulos e APIs) e sustentação do novo sistema educacional e administrativo / SUAP (Python, PostgreSQL)",
+        "Sustentação e  desenvolvimento do módulo de migração do sistema educacional anterior / SIGAA (Java, PostgreSQL)"
+      ]
+    },    
+    {
+      "name": "CAIXA",
+      "position": "Analista Pleno",
+      "startDate": "2013",
+      "endDate": "2017",
+      "highlights": [
+        "Desenvolvimento dos sistemas internos para Habilitação de Seguros, Baixa de Hipoteca e Administrativo (C#, SQL Server)",
+        "Desenvolvimento de rotinas para automatização e integração dos dados (BI) (SQL Server)"
+      ]
     },
     {
-      "name": "XYZ Company",
-      "logo": "/logo/company-1.svg",
-      "position": "Software Engineer Intern",
-      "summary": "Developed and maintained web applications using HTML, CSS, and JavaScript",
-      "startDate": "2018",
-      "endDate": "2019",
+      "name": "SECTI/GOV.BA",
+      "position": "Coordenador de Desenvolvimento",
+      "startDate": "2011",
+      "endDate": "2013",
       "highlights": [
-        "Developed and maintained web applications using HTML, CSS, and JavaScript",
-        "Collaborated with team members to implement new features and resolve bugs",
-        "Conducted code reviews and provided feedback on coding best practices"
-      ],
-      "location": "New York, NY"
-    }
-  ],
-  "volunteer": [
+        "Desenvolvimento dos sistemas: Administrativo/RH, Protocolo e Gestão Contratual (PHP, PostgreSQL)"      
+      ]
+    },     
     {
-      "organization": "Beach Cleanup",
-      "position": "Volunteer",
-      "url": "https://organization.com",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Cleanup south Italy beaches every weekend",
+      "name": "3Consult",
+      "position": "Engenheiro de Software",
+      "startDate": "2010",
+      "endDate": "2011",
       "highlights": [
-        "Awarded 'Volunteer of the Month'",
-        "Removed tons and tons of trash from the beaches"
+        "Desenvolvimento de sistema 3CPrintManager, para bilhetagem e controle de impressão (C, Python e Ruby on Rails)",
+        "Desenvolvimento de sistema para gestão simplicada de proxys SQUID (Python, PostgreSQL)"
+      ]
+    },    
+    {
+      "name": "SECTI/GOV.BA",
+      "position": "Programador",
+      "startDate": "2009",
+      "endDate": "2010",
+      "highlights": [
+        "Desenvolvimento de ferramentas de suporte para distribuição Debian customizada Berimbau Linux (Python)",
+        "Desenvolvimento do SISOPE, sistema de monitoramento e suporte dos infocentros (PHP e MySQL)"
       ]
     }
   ],
   "projects": [
     {
-      "name": "An amazing Project",
-      "startDate": "2023-01-01",
-      "endDate": "2023-05-01",
-      "summary": "Summary...",
-      "highlights": [
-        "Won award at AIHacks 2016"
-      ],
-      "url": "https://project.com/"
+      "name": "django-webcampicture",
+      "summary": "App Django para capturar imagens a partir da webcam do usuário",
+      "url": "https://github.com/rnetonet/django-webcampicture"
     }
   ],
   "skills": [
     {
-      "name": "Java",
-      "level": "Advanced"
+      "name": "Python",
+      "level": "Avançado"
     },
     {
-      "name": "JavaScript",
-      "level": "Advanced"
+      "name": "Django",
+      "level": "Avançado"
     },
     {
-      "name": "HTML",
-      "level": "Advanced"
+      "name": "PostgreSQL",
+      "level": "Avançado"
+    },    
+    {
+      "name": "FastAPI",
+      "level": "Intermediário"
     },
     {
-      "name": "CSS",
-      "level": "Advanced"
+      "name": "HTML/CSS/Javscript",
+      "level": "Intermediário"
+    },    
+    {
+      "name": "C#",
+      "level": "Intermediário"
     },
     {
-      "name": "Spring Framework",
-      "level": "Advanced"
+      "name": "ASP.NET",
+      "level": "Intermediário"
     },
     {
-      "name": "Database Management",
-      "level": "Advanced"
-    },
-    {
-      "name": "Problem-solving",
-      "level": "Advanced"
-    },
-    {
-      "name": "Teamwork",
-      "level": "Advanced"
+      "name": "SQL Server",
+      "level": "Intermediário"
     }
   ],
   "certificates": [
     {
-      "issuer": "PMI",
-      "name": "Project Management Professional",
-      "date": "2018",
-      "url": "https://www.pmi.org/certifications/types/project-management-pmp"
-    }
-  ],
-  "awards": [
+      "issuer": "UFMG",
+      "name": "Engenharia de Software Moderna",
+      "date": "2021",
+      "url": "https://www.engsoftmoderna.dcc.ufmg.br/"
+    },
     {
-      "title": "TopDad",
-      "date": "2023-03-12",
-      "awarder": "Family",
-      "summary": "Best dad ever"
-    }
-  ],
-  "publications": [
-    {
-      "name": "New semiconductor materials",
-      "publisher": "IEEE",
-      "releaseDate": "2023-10-01",
-      "url": "https://www.ieee.org/",
-      "summary": "A new way to create semiconductors"
+      "issuer": "UFMG",
+      "name": "Teste de Software",
+      "date": "2021",
+      "url": "https://www.testesoft.dcc.ufmg.br/"
     }
   ]
 }
