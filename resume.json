@@ -43,8 +43,8 @@
       "startDate": "2021",
       "endDate": "",
       "highlights": [
-        "Coordenação da sustentação e desenvolvimento da www.escolavirtual.gov.br (EV.G)",
-        "Projeto e desenvolvimento das iniciativas de integração e compartilhamento de dados EnAPI e Integra (Python, FastAPI)"
+        "Coordenação da Sustentação e Desenvolvimento da www.escolavirtual.gov.br (EV.G)",
+        "Projeto e Desenvolvimento das iniciativas de integração e compartilhamento de dados EnAPI e Integra (Python, FastAPI)"
       ]
     },        
     {
@@ -54,7 +54,7 @@
       "endDate": "2021",
       "highlights": [
         "Implantação, customização (novos módulos e APIs) e sustentação do novo sistema educacional e administrativo / SUAP (Python, PostgreSQL)",
-        "Sustentação e  desenvolvimento do módulo de migração do sistema educacional anterior / SIGAA (Java, PostgreSQL)"
+        "Desenvolvimento e Sustentação e do módulo de migração do sistema educacional anterior / SIGAA (Java, PostgreSQL)"
       ]
     },    
     {
@@ -82,7 +82,7 @@
       "startDate": "2010",
       "endDate": "2011",
       "highlights": [
-        "Desenvolvimento de sistema 3CPrintManager, para bilhetagem e controle de impressão (C, Python e Ruby on Rails)",
+        "Desenvolvimento do sistema 3CPrintManager, para bilhetagem e controle de impressão (C, Python e Ruby on Rails)",
         "Desenvolvimento de sistema para gestão simplicada de proxys SQUID (Python, PostgreSQL)"
       ]
     },    
